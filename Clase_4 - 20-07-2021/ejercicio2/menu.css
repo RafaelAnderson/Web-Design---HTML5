@@ -1,0 +1,22 @@
+a {
+	text-decoration: none;
+}
+
+.navigator {
+	background: yellow;
+}
+
+.contenedor {
+	background-color: #C4D526;
+}
+
+.field {
+	background-color: #C4D526;
+}
+
+legend {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
