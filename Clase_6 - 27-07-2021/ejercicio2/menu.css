@@ -1,0 +1,22 @@
+a {
+	text-decoration: none;
+}
+
+.navigator {
+	background: skyblue;
+}
+
+.contenedor {
+	background-color: skyblue;
+}
+
+.field {
+	background-color: skyblue;
+}
+
+legend {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+}
