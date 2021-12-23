@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex</title>
+	<style type="text/css">
+		#contenedor {
+			display: flex;
+			width: 100%;
+		}
+
+		.elemento {
+			/*width: 150px;*/
+			flex: 1; /* Proporcion es igual para los elementos*/
+			height: 150px;
+		}
+
+		#elemento1 {
+			background-color: red;
+		}
+
+		#elemento2 {
+			background-color: royalblue;
+			flex: 2; /*Hace que sea el doble que los demas*/
+		}
+
+		#elemento3 {
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<section id="contenedor">
+		<div id="elemento1" class="elemento"></div>
+		<div id="elemento2" class="elemento"></div>
+		<div id="elemento3" class="elemento"></div>
+	</section>
+	</div>
+</body>
+</html>
